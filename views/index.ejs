@@ -1,0 +1,24 @@
+<!DOCTYPE html>
+<html lang="en">
+    <%- include("../views/partials/head", {title: title}); %>
+    <body class="bgcolor">
+        <div class="container-fluid text-center" id="post ">
+            <% if ((options !== undefined) && (options.showMetadata)) { %>
+            <div class="row"><h3><%= title %></h3></div>
+            <div class="row"><i><%= description %></i></div>
+            <% } %>
+            <%- post %>
+            <a href="https://github.com/zudsniper/">
+                <div class="calendar" style="text-decoration: none !important;">
+                    <!-- Loading stuff -->
+                    Loading the data just for you.
+                </div>
+            </a>
+            <script>
+
+                // or enable responsive functionality:
+                GitHubCalendar(".calendar", "zudsniper", { responsive: true });
+            </script>
+        </div>
+    </body>
+</html>

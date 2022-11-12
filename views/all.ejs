@@ -1,0 +1,15 @@
+<!DOCTYPE html>
+<html lang="en">
+<%- include("../views/partials/head"); %>
+    <body class="">
+        <div id="list-all" class="container-fluid text-center">
+            <% for (post of posts) { %>
+                <a href="<%= post.slice(0, -3) %>">
+                    <div class="row post">
+                        <span><%= post.toUpperCase() %></span>
+                    </div>
+                </a>
+            <% } %>
+        </div>
+    </body>
+</html>

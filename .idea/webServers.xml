@@ -1,0 +1,21 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="WebServers">
+    <option name="servers">
+      <webServer id="db06ae91-39c1-4665-b417-48b0e2d70e3a" name="$PROJECT_DIR$" url="http://zod.tf">
+        <fileTransfer rootFolder="/home/jason/" accessType="SFTP" host="spooky.tf" port="22" sshConfigId="c9b3e808-f70b-4dfc-9ce2-b46c40b056a4" sshConfig="jason@spooky.tf:22:24 password">
+          <advancedOptions>
+            <advancedOptions dataProtectionLevel="Private" keepAliveTimeout="0" passiveMode="true" shareSSLContext="true" />
+          </advancedOptions>
+        </fileTransfer>
+      </webServer>
+      <webServer id="3cba509b-1597-40e3-9d68-ffb1ff32921e" name="zod.tf" url="http://zod.tf/">
+        <fileTransfer rootFolder="/home/jason" accessType="SFTP" host="spooky.tf" port="22" sshConfigId="c9b3e808-f70b-4dfc-9ce2-b46c40b056a4" sshConfig="jason@spooky.tf:22:24 password">
+          <advancedOptions>
+            <advancedOptions dataProtectionLevel="Private" keepAliveTimeout="0" passiveMode="true" shareSSLContext="true" isUseRsync="true" />
+          </advancedOptions>
+        </fileTransfer>
+      </webServer>
+    </option>
+  </component>
+</project>

@@ -1,0 +1,115 @@
+.btn-orange {
+  background-color: #f08300;
+  color: white;
+  font-weight: bolder;
+  transition: 0.6s;
+}
+.btn-orange:hover {
+  background-color: #ff4900;
+  color: floralwhite;
+  font-weight: normal;
+  transition: 0.3s;
+}
+
+.stf-rightnav {
+  position: absolute;
+  right: 0;
+  top: 0;
+  padding-top: 1.2rem;
+  padding-right: 0.5rem;
+}
+.stf-rightnav span > span {
+  color: black !important;
+  opacity: 0;
+  font-size: small;
+  transition: 0.5s ease-in-out;
+  margin-right: 0.8rem;
+}
+.stf-rightnav:hover span > span {
+  color: red !important;
+  opacity: 100;
+  transition: 0.5s ease-in-out;
+}
+
+.zodtf_bg {
+  padding-top: 1rem;
+  background-origin: padding-box;
+  background-position: center;
+  background-size: cover;
+  filter: blur(10px);
+  transition: 0.6s ease-in-out;
+}
+.zodtf_bg:hover {
+  filter: blur(0px);
+  transition: 0.4s ease-in-out;
+}
+
+.zodtf_bgleft {
+  background-image: url("../imgs/spookytf-bg-2.png");
+}
+
+.zodtf_bgright {
+  background-image: url("../imgs/music-wrath.jpg");
+  background-position-y: 30% !important;
+}
+
+* {
+  font-family: "Sono", sans-serif !important;
+  font-weight: 400 !important;
+}
+
+html {
+  background-color: #272b2f;
+}
+
+h1, h2, h3, h4, h5, h6, p, i, b, span, hr {
+  color: whitesmoke !important;
+}
+
+b {
+  font-family: "Sono", sans-serif;
+  font-weight: 700;
+}
+
+.thinner {
+  font-family: "Sono", sans-serif;
+  font-weight: 200;
+}
+
+.thin {
+  font-family: "Sono", sans-serif;
+  font-weight: 300;
+}
+
+.bold {
+  font-family: "Sono", sans-serif;
+  font-weight: 700;
+}
+
+.bolder {
+  font-family: "Sono", sans-serif;
+  font-weight: 800;
+}
+
+.bgcolor {
+  background-color: #272b2f;
+}
+
+a {
+  text-decoration: none;
+  color: white;
+}
+
+code {
+  color: #0d6efd !important;
+}
+
+code.c2 {
+  color: #000dff !important;
+}
+
+code.c3 {
+  color: white !important;
+}
+
+/*# sourceMappingURL=style.css.map */
