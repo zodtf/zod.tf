@@ -15,7 +15,7 @@
 - [`my vocal chords ig`] : illegal chinese organ market
 
 ---
-# *More of a gearhead? no worries*
+# `More of a gearhead? no worries`
 > here's my kit -- more than enough for my 0 output ...
 
 ## gear
