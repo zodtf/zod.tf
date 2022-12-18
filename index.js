@@ -23,6 +23,8 @@ app.set("view engine", "ejs");
 // Read in package.json for some stats
 const pkgJSON = fs.readFileSync('package.json').toJSON();
 
+
+
 const converter = new showdown.Converter();
 
 function getPosts(extension='.md') {
