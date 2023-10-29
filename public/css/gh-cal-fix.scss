@@ -1,0 +1,51 @@
+// this is a workaround for the github calendar issue presented
+// here: https://github.com/Bloggify/github-calendar/issues/169#issuecomment-1638288345
+// here is the actual workaround, found in a different issue: https://github.com/joelshepherd/tabliss/issues/620#issuecomment-1640589411
+// all credit to @the-wright-jamie on github for this code
+//    -> it doesn't work though...
+
+
+.GitHub {
+  width:100%;
+  display: flex;
+  justify-content: center;
+}
+.sr-only {
+  display: none;
+}
+
+td:first-child {
+  display: none;
+}
+
+div.js-calendar-graph div:last-child {
+  display: none;
+}
+
+table.ContributionCalendar-grid thead {
+  display: none;
+}
+
+td.ContributionCalendar-day {
+  border-radius: 3px;
+}
+
+td.ContributionCalendar-day[data-level='0'] {
+  background-color: var(--color-calendar-graph-day-bg);
+}
+
+td.ContributionCalendar-day[data-level='1'] {
+  background-color: var(--color-calendar-graph-day-L1-bg);
+}
+
+td.ContributionCalendar-day[data-level='2'] {
+  background-color: var(--color-calendar-graph-day-L2-bg);
+}
+
+td.ContributionCalendar-day[data-level='3'] {
+  background-color: var(--color-calendar-graph-day-L3-bg);
+}
+
+td.ContributionCalendar-day[data-level='4'] {
+  background-color: var(--color-calendar-graph-day-L4-bg);
+}

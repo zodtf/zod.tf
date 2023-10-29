@@ -1,24 +1,26 @@
 {
   "name": "zod.tf",
-  "version": "1.1.4",
-  "description": "simple little preview website",
+  "version": "1.2.7",
+  "description": "markdown parsing portfolio website in js with node, ejs, express, and sass",
   "main": "index.js",
   "scripts": {
-    "test": "echo \"Error: no test specified\" && exit 0",
+    "first-install": "npm install -g sass; npm run build",
+    "test": "echo \"testing: no tests written yet.\" && exit 0",
     "build": "npm install; npm run start",
     "start": "node index.js"
   },
-  "author": "zudsniper",
+  "author": "Jason \"zod\" McElhenney <me@zod.tf>",
   "license": "private",
-
   "dependencies": {
-    "body-parser": "^1.20.1",
-    "ejs": "^3.1.8",
+    "body-parser": "^1.20.2",
+    "ejs": "^3.1.9",
     "express": "^4.18.2",
-    "github-calendar": "^2.3.1",
+    "figlet": "^1.7.0",
+    "github-calendar": "^2.3.2",
     "gray-matter": "^4.0.3",
     "paths": "^0.1.1",
-    "sass": "^1.56.1",
+    "pico": "^0.1.17",
+    "sass": "^1.69.5",
     "serve-favicon": "^2.5.0",
     "showdown": "^2.1.0"
   }

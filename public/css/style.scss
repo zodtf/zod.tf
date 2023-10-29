@@ -1,5 +1,13 @@
 //gaming #1 scss file
 
+.GitHub.calendar {
+  min-width: 100%;
+  position: absolute;
+  right: 0;
+  left: 0;
+  bottom: 0;
+}
+
 .btn-orange {
   background-color: #f08300;
   color: white;
@@ -128,6 +136,10 @@ code.c2 {
 
 code.c3 {
   color: $code-color-3 !important;
+}
+
+li {
+  color: $light-text;
 }
 
 html {

@@ -13,9 +13,7 @@
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
     <link href="https://fonts.googleapis.com/css2?family=Sono:wght@200;300;400;500;600;700;800&display=swap" rel="stylesheet">
     <link rel="stylesheet" href="./css/style.css"/>
-
-
-
+<!--    <link rel="stylesheet" href="./css/gh-cal-fix.css"/>-->
 </head>
 <header>
     <nav class="navbar sticky-top navbar-expand-lg navbar-dark bg-dark py-0 px-0 container-fluid">
@@ -28,16 +26,19 @@
                 <a class="nav-link" href="/random">random</a>
             </li>
             <li class="nav-item my-auto">
-                <a class="nav-link" href="https://github.com/zudsniper">projects</a>
+                <a class="nav-link" href="<%= links.github %>">github</a>
             </li>
             <li class="nav-item my-auto">
-                <a class="nav-link" href="https://music.contenthell.earth">music</a>
+                <a class="nav-link" href="<%= links.linkedin %>">linkedin</a>
+            </li>
+            <li class="nav-item my-auto">
+                <a class="nav-link" href="<%= links.music %>">music</a>
             </li>
             <li class="nav-item my-auto">
                 <a class="nav-link disabled" href="#">maybe.api?</a>
             </li>
             <li class="nav-item my-auto stf-rightnav">
-                <span><span>[WARNING] Clicking will <b>LAUNCH TF2</b> & connect you!</span><a href="steam://connect/zod.mge.tf:27015/"><button type="button" class="btn btn-outline-danger"><code class="c3">[zod.mge.tf]</code></button></a></span>
+                <span><span>[WARNING] Clicking will <b>LAUNCH TF2</b> & connect you!</span><a href="<%= links.servers.chillypunch.connect %>"><button type="button" class="btn btn-outline-danger"><code class="c3">[zod.mge.tf]</code></button></a></span>
             </li>
         </ul>
     </nav>

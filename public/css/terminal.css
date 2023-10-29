@@ -1,0 +1,22 @@
+/* Terminal Styles */
+#terminal {
+  background-color: black;
+  color: lime;
+  font-family: monospace;
+  padding: 10px;
+  overflow-y: auto;
+  height: 300px;
+}
+
+#cursor {
+  background-color: white;
+  animation: blink 1s infinite;
+}
+
+@keyframes blink {
+  50% {
+    background-color: transparent;
+  }
+}
+
+/*# sourceMappingURL=terminal.css.map */
