@@ -1,4 +1,5 @@
 #!/bin/bash
+# DEPRECATED -- DO NOT USE
 
 echo 'Updating /var/www/ with new data...';
 

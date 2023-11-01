@@ -1,6 +1,6 @@
 {
   "name": "zod.tf",
-  "version": "1.2.7",
+  "version": "1.2.8",
   "description": "markdown parsing portfolio website in js with node, ejs, express, and sass",
   "main": "index.js",
   "scripts": {

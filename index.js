@@ -214,7 +214,7 @@ app.listen(port, () => {
 			return;
 		}
 		let border_len = data.split('\n')[0].length + (4 /* text border gutter size on either side */);
-		console.log('='.repeat(border_len) + `\n${data}\n` + '='.repeat(border_len) + '\n');
+		console.log('='.repeat(border_len) + `${data}\n` + '='.repeat(border_len) + '\n');
 		console.log(`simple mkdn parse-server started on ${port}...`);
 	});
 	console.log(`version: v${pkgJSON.version}`);
